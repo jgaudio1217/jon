@@ -1,0 +1,43 @@
+body {
+	font-family: "Pacifico";
+	background-color: #2B3999
+		
+}
+th {
+	border: 5px solid white;
+	width: 300px;
+	color: white;
+
+}
+	
+h1 { 
+	text-align: center;
+	color: white;
+	animation-name:a;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+}
+@keyframes a{
+	0%{
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(720deg);
+	}
+	to {
+		transform: rotate(720deg);
+	}
+}
+table {
+	height: 700px; 
+	border: 5px solid white;
+}
+td {
+	color: white; 
+}
+#a2:hover {
+	cursor: url(https://www.w3schools.com/cssref/myBall.cur), auto;
+}
+a {
+	color: white
+} 
